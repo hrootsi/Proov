@@ -22,8 +22,8 @@ if (isset($_POST["start"])) {
 			die('Could not connect: ' . pgsql_error());
 			echo "jama";
 		}
-		
-		echo $query;
+		$query="select name, sum(trades) from (SELECT * FROM Equity where date >='".$_POST["start"]."' AND date<='".$_POST["end"]."')as foo group by name order by sum desc LIMIT 10";
+
 		$result = pg_query($conn,$query);
 		if (!$result) {
 			$errormessage = pg_last_error();
