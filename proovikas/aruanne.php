@@ -11,9 +11,9 @@
 <a HREF='/proovikas/index.php'>Avalehele</a><br>
 <?php
 if (isset($_POST["start"])) {
-
+	//$start=$_POST["start"]);
 	if(isset($_REQUEST["end"])){
-
+		//$end=$_POST["end"]);
 		$myFile = "db_connect.txt";
 		$fh = fopen($myFile, 'r');
 		$theData = fread($fh,filesize($myFile));
@@ -22,7 +22,7 @@ if (isset($_POST["start"])) {
 			die('Could not connect: ' . pgsql_error());
 			echo "jama";
 		}
-		
+		$query="select name, sum(trades) from (SELECT * FROM Equity where date >='".$_POST["start"]."' AND date<='".$_POST["end"]."')as foo group by name order by sum desc LIMIT 10";
 		echo $query;
 		$result = pg_query($conn,$query);
 		if (!$result) {
