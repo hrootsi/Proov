@@ -1,0 +1,23 @@
+CREATE TABLE Equity
+(
+c_id SERIAL PRIMARY KEY,
+Ticker varchar(255),
+Name varchar(255),
+ISIN varchar(255),
+Currency varchar(255),
+MarketPlace varchar(255),
+Nimekiri varchar(255),
+Avg_price varchar(255),
+Open_price varchar(255),
+High_price varchar(255),
+Low_price varchar(255),
+Last_close varchar(255),
+Last_price varchar(255),
+Price_change varchar(255),
+Best_bid varchar(255),
+Best_ask varchar(255),
+Trades int,
+Volume varchar(255),
+Turnover varchar(255),
+Date DATE
+)

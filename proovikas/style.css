@@ -1,0 +1,158 @@
+body{color:black; background:white}
+
+#box {
+position:absolute;
+left:550px;
+top:230px;
+background:black;
+width:50px;
+height:50px;
+border:5px solid gray;
+}
+a:link {color:Blue}      
+a:visited {color:Blue}
+p{
+	color:white; 
+	font-family:"Times New Roman";
+	font-size:20px;
+	text-align:center;
+}
+
+h1{
+	color:white;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#result {
+position:absolute;
+left:530px;
+top:170px;
+background:black;
+width:150px;
+height:50px;
+border:0px solid gray;
+}
+
+#score1 {
+position:absolute;
+left:300px;
+top:230px;
+background:black;
+width:150px;
+height:50px;
+border:5px solid gray;
+
+}
+
+#score2 {
+position:absolute;
+left:700px;
+top:230px;
+background:black;
+width:150px;
+height:50px;
+border:5px solid gray;
+}
+
+#roll {
+position:absolute;
+left:300px;
+top:330px;
+background:red;
+width:50px;
+height:50px;
+border:5px solid gray;
+}
+
+
+#hold {
+position:absolute;
+left:100px;
+top:100px;
+background:red;
+width:50px;
+height:50px;
+position:absolute;
+left:300px;
+top:400px;
+border:5px solid gray;
+}
+
+#begin {
+position:absolute;
+left:530px;
+top:300px;
+background:red;
+width:90px;
+height:50px;
+border:5px solid gray;
+}
+
+#comp {
+position:absolute;
+left:670px;
+top:80px;
+background:black;
+width:150px;
+height:50px;
+border:0px solid gray;
+}
+
+#player {
+position:absolute;
+left:280px;
+top:80px;
+background:black;
+width:150px;
+height:50px;
+border:0px solid gray;
+}
+
+#points {
+background:black;
+width:90px;
+height:50px;
+border:0px solid gray;
+}
+
+#progress{
+position:absolute;
+left:300px;
+top:150px;
+background:blue;
+height:50px;
+width:0px;
+border:0px solid gray;
+}
+
+#progress2{
+position:absolute;
+left:300px;
+top:150px;
+background:brown;
+height:50;
+width:100px;
+border:0px solid gray;
+}
+
+#progress3{
+position:absolute;
+left:700px;
+top:150px;
+background:blue;
+height:50;
+width:0px;
+border:0px solid gray;
+}
+
+#progress4{
+position:absolute;
+left:700px;
+top:150px;
+background:brown;
+height:50;
+width:100px;
+border:0px solid gray;
+}

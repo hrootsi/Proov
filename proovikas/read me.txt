@@ -1,0 +1,10 @@
+ANDMEBAASI LOOMINE:
+Andmebaasi loomiseks käivitada sql lause failist sql/database.sql
+
+ANDMEBAASI ÜHENDUSE SEADISTAMINE:
+Andmebaasi ühenduse seadistamiseks tuleks muuta failis db_connect.txt asuvate väärtuste parameetreid.
+
+TUTVUSTUS:
+Rakendus laeb NASDAQ'i lehelt .csv failist andmed ning kirjutab need loodud andmebaasi. Rakendus salvestab 10 viimase päeva info.
+Andmebaasis leiduvate kirjete vaatamiseks tuleb vajutada lingile "Andmebaasis olevad päevad"
+Rakdendus sisaldab ka aruande lehte, kus saab vaadata sisestatud perioodi jooksul kõige rohkem kaubeldud aktsiate nimesid.
